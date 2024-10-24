@@ -1,0 +1,334 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+  scroll-behavior: smooth;
+}
+
+a {
+  text-decoration: none;
+}
+
+ul {
+  list-style: none;
+}
+
+.btn-warning, .btn-danger, .btn-success, .btn-primary {
+  padding: 8px 12px;
+  display: grid;
+  place-content: center;
+  border: none;
+  border-radius: 6px;
+  color: #fff;
+  transition: all 0.2s linear;
+  box-shadow: 0 0 3px rgba(73, 73, 255, 0.563);
+  background-color: rgb(73, 73, 255);
+  margin: 8px;
+}
+
+.btn-warning:hover, .btn-danger:hover, .btn-success:hover, .btn-primary:hover {
+  background-color: rgba(73, 73, 255, 0.76);
+  color: #ebebeb;
+}
+
+.card, .box {
+  background-color: #ede0e0;
+  box-shadow: 0 0 10px rgb(93, 93, 93);
+  margin: 10px;
+  border-radius: 12px;
+  transition: all 0.2s ease;
+}
+
+.card:hover, .box:hover {
+  box-shadow: 0 0 20px rgb(93, 93, 93);
+  background-color: azure;
+}
+
+.box {
+  width: 200px;
+  height: 200px;
+}
+
+.card {
+  width: 400px;
+  height: 400px;
+}
+
+.wrapper-card {
+  width: 300px;
+  height: 450px;
+  background-color: red;
+  box-shadow: 0 0 20px silver;
+  border-radius: 10px 20px 30px;
+  margin: 10px;
+  transition: all 0.2s ease;
+  background-color: lime;
+}
+
+.btn-success {
+  background-color: teal;
+}
+
+.btn-danger {
+  background-color: crimson;
+}
+
+.btn-warning {
+  background-color: #ffd900;
+}
+
+.container {
+  max-width: 1250px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+header {
+  width: 100%;
+  height: 100px;
+  background: #000;
+}
+header nav {
+  color: #fff;
+  display: flex;
+  height: 100%;
+  align-items: center;
+  justify-content: space-between;
+}
+header nav ul {
+  display: flex;
+  gap: 30px;
+  margin-right: 10px;
+  list-style: none;
+}
+
+footer {
+  width: 100%;
+  height: 100px;
+  background: #000;
+}
+footer div {
+  color: #fff;
+  display: flex;
+  height: 100%;
+  align-items: center;
+  justify-content: space-between;
+}
+footer div ul {
+  display: flex;
+  gap: 30px;
+  margin-right: 10px;
+  list-style: none;
+}
+
+.main {
+  background: #ffe600;
+}
+.main .container {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px;
+}
+.main .container .events {
+  width: 45%;
+}
+.main .container .events h2 {
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+.main .container .events .event-card {
+  display: flex;
+  align-items: center;
+  margin-bottom: 50px;
+  gap: 20px;
+}
+.main .container .events .event-card .circle {
+  width: 100px;
+  height: 90px;
+  padding: 5px;
+  border-radius: 50%;
+  background: black;
+  color: #ffde00;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.main .container .events .event-card .content h3 {
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+.main .container .events .event-card .content p {
+  margin-bottom: 15px;
+}
+.main .container .events .event-card .content button {
+  background: black;
+  color: #ffde00;
+  padding: 10px 15px;
+  border: none;
+  cursor: pointer;
+  font-weight: bold;
+  margin-left: 300px;
+}
+.main .container .goodies {
+  width: 45%;
+}
+.main .container .goodies h2 {
+  font-size: 24px;
+  margin-bottom: 20px;
+  display: flex;
+  justify-content: space-between;
+}
+.main .container .goodies h2 span {
+  font-size: 14px;
+  font-weight: normal;
+}
+.main .container .goodies .goodie-card {
+  width: 400px;
+  height: 300px;
+  background-color: aqua;
+  background-image: url("../photo.jpg"); /* To'g'ri rasm yo'lini berish kerak */
+  background-repeat: no-repeat;
+  background-size: cover; /* Konteynerni to'liq qoplaydi */
+  background-position: center; /* Rasmni markazga joylaydi */
+  padding: 20px;
+  margin-bottom: 20px;
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.main .container .goodies .goodie-card h3 {
+  font-size: 18px;
+}
+.main .container .goodies .goodie-card button {
+  background: black;
+  color: #ffde00;
+  padding: 10px 15px;
+  border: none;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+.hero {
+  background-color: #ffe600;
+  padding: 50px 0;
+  text-align: center;
+}
+.hero .container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+.hero .container .celebration-banner {
+  background: black;
+  color: yellow;
+  padding: 5px 20px;
+  display: inline-block;
+  font-weight: bold;
+  letter-spacing: 1px;
+  font-size: 16px;
+  margin-bottom: 20px;
+  text-align: left;
+}
+.hero .container h1, .hero .container p:first-of-type {
+  text-align: left;
+  margin-left: 100px;
+}
+.hero .container p {
+  font-size: 24px;
+  margin: 10px 0;
+}
+.hero .container p span {
+  font-weight: bold;
+}
+.hero .container .try-js {
+  margin: 40px 200px;
+  text-align: center;
+}
+.hero .container .try-js h2 {
+  font-size: 24px;
+  font-weight: bold;
+}
+.hero .container .try-js p {
+  font-size: 16px;
+  margin: 10px 0;
+}
+.hero .container .try-js p span {
+  background: #f3f3f3;
+  padding: 5px;
+  border-radius: 4px;
+  font-family: monospace;
+}
+.hero .container .try-js .input-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px;
+}
+.hero .container .try-js .input-container .input-arrow {
+  font-size: 24px;
+  font-weight: bold;
+  margin-right: -30px;
+  color: #fff;
+  z-index: 999;
+}
+.hero .container .try-js .input-container input {
+  background-color: rgb(55, 53, 53);
+  padding: 10px 15px;
+  font-size: 16px;
+  width: 500px;
+  text-align: left;
+  border-radius: 4px;
+  font-family: monospace;
+}
+.hero .container .cta-button {
+  margin-top: 20px;
+  background-color: #ff0099;
+  color: white;
+  padding: 15px 30px;
+  border: none;
+  font-size: 18px;
+  cursor: pointer;
+  border-radius: 5px;
+}
+.hero .container .cta-button:hover {
+  background-color: #e6007a;
+}
+
+.banner {
+  background-color: #ffde00;
+  text-align: center;
+  padding: 50px 20px;
+}
+.banner .container {
+  max-width: 1200px; /* Maksimal kenglikni berish (e.g. 1200px) */
+  margin: 0 auto; /* Markazga joylash */
+}
+.banner h1 {
+  font-size: 36px;
+  font-weight: bold;
+  color: black;
+  margin-bottom: 10px;
+}
+.banner h1 span {
+  color: #000;
+}
+.banner p {
+  font-size: 18px;
+  color: #333;
+  margin-bottom: 20px;
+}
+.banner button {
+  background-color: black;
+  color: #ffe600;
+  padding: 15px 30px;
+  border: none;
+  font-size: 16px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+.banner button:hover {
+  background-color: #333;
+}/*# sourceMappingURL=style.css.map */

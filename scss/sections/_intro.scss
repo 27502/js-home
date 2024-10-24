@@ -1,0 +1,106 @@
+.main{
+    background: #ffe600;
+    .container {
+        display: flex;
+        justify-content: space-between;
+     
+        padding: 20px;
+      
+        .events {
+          width: 45%;
+          
+          h2 {
+            font-size: 24px;
+            margin-bottom: 20px;
+          }
+          
+          .event-card {
+            display: flex;
+            align-items: center;
+            margin-bottom: 50px;
+            gap: 20px;
+      
+            .circle {
+              width: 100px;
+              height: 90px;
+              padding: 5px;
+              border-radius: 50%;
+              background: black;
+              color: #ffde00;
+              display: flex;
+              align-items: center;
+              justify-content: center;
+
+            }
+      
+            .content {
+              h3 {
+                font-size: 18px;
+                margin-bottom: 10px;
+              }
+      
+              p {
+                margin-bottom: 15px;
+              }
+      
+              button {
+                background: black;
+                color: #ffde00;
+                padding: 10px 15px;
+                border: none;
+                cursor: pointer;
+                font-weight: bold;
+                margin-left: 300px;
+              }
+            }
+          }
+        }
+      
+        .goodies {
+          width: 45%;
+          
+          h2 {
+            font-size: 24px;
+            margin-bottom: 20px;
+            display: flex;
+            justify-content: space-between;
+      
+            span {
+              font-size: 14px;
+              font-weight: normal;
+            }
+          }
+      
+          .goodie-card {
+            width: 400px;
+            height: 300px;
+            background-color: aqua;
+            background-image: url('../photo.jpg'); /* To'g'ri rasm yo'lini berish kerak */
+            background-repeat: no-repeat;
+            background-size: cover; /* Konteynerni to'liq qoplaydi */
+            background-position: center; /* Rasmni markazga joylaydi */
+            padding: 20px;
+            margin-bottom: 20px;
+            color: white;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+          
+          
+            h3 {
+              font-size: 18px;
+            }
+      
+            button {
+              background: black;
+              color: #ffde00;
+              padding: 10px 15px;
+              border: none;
+              cursor: pointer;
+              font-weight: bold;
+            }
+          }
+        }
+      }
+      
+}

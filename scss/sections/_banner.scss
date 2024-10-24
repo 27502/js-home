@@ -1,0 +1,43 @@
+.banner {
+    background-color: #ffde00;
+    text-align: center;
+    padding: 50px 20px;
+  
+    .container {
+      max-width: 1200px; /* Maksimal kenglikni berish (e.g. 1200px) */
+      margin: 0 auto; /* Markazga joylash */
+    }
+  
+    h1 {
+      font-size: 36px;
+      font-weight: bold;
+      color: black;
+      margin-bottom: 10px;
+  
+      span {
+        color: #000;
+      }
+    }
+  
+    p {
+      font-size: 18px;
+      color: #333;
+      margin-bottom: 20px;
+    }
+  
+    button {
+      background-color: black;
+      color: #ffe600;
+      padding: 15px 30px;
+      border: none;
+      font-size: 16px;
+      font-weight: bold;
+      cursor: pointer;
+      transition: background-color 0.3s ease;
+  
+      &:hover {
+        background-color: #333;
+      }
+    }
+  }
+  

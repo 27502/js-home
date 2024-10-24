@@ -1,0 +1,102 @@
+.hero {
+    background-color: #ffe600;
+    padding: 50px 0;
+    text-align: center;
+  
+    .container {
+      max-width: 1200px;
+      margin: 0 auto;
+      padding: 0 20px;
+  
+      .celebration-banner {
+        background: black;
+        color: yellow;
+        padding: 5px 20px;
+        display: inline-block;
+        font-weight: bold;
+        letter-spacing: 1px;
+        font-size: 16px;
+        margin-bottom: 20px;
+        text-align: left;
+      }
+  
+      h1, p:first-of-type {
+        text-align: left;
+        margin-left: 100px;
+      }
+  
+      p {
+        font-size: 24px;
+        margin: 10px 0;
+        span {
+          font-weight: bold;
+        }
+      }
+  
+      .try-js {
+        margin: 40px 200px;
+        text-align: center;
+  
+        h2 {
+          font-size: 24px;
+          font-weight: bold;
+        }
+  
+        p {
+          font-size: 16px;
+          margin: 10px 0;
+  
+          span {
+            background: #f3f3f3;
+            padding: 5px;
+            border-radius: 4px;
+            font-family: monospace;
+          }
+        }
+  
+        .input-container {
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          margin-top: 20px;
+         
+  
+          .input-arrow {
+            font-size: 24px;
+            font-weight: bold;
+            margin-right: -30px;
+            color: #fff;
+            z-index: 999;
+          }
+  
+          input {
+            background-color: rgb(55, 53, 53);
+            padding: 10px 15px;
+            font-size: 16px;
+           
+            width: 500px; 
+            text-align: left;
+            border-radius: 4px;
+            font-family: monospace; 
+          }
+        }
+      }
+  
+      .cta-button {
+        margin-top: 20px;
+        background-color: #ff0099;
+        color: white;
+        padding: 15px 30px;
+        border: none;
+        font-size: 18px;
+        cursor: pointer;
+        border-radius: 5px;
+  
+        &:hover {
+          background-color: #e6007a;
+        }
+      }
+    }
+  }
+  
+  
